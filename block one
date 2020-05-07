@@ -1,0 +1,24 @@
+<header>
+	<h1>web demo for exploring the box model in web pages</h1>
+</header>
+
+<main>
+	<!-- a box is called a div in html -->
+
+	<div id="one">
+		<p>content goes here.</p>
+	</div>
+
+	<div id="two">
+		<p>content goes here.</p>
+	</div>
+
+	<!-- this div has another div inside it -->
+	<div id="three">
+		<div id="four">
+			<p>content goes here.</p>
+		</div>
+		<p>content goes here.</p>
+	</div>
+
+</main>
